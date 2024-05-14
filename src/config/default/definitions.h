@@ -72,7 +72,7 @@ extern "C" {
 #define DEVICE_SERIES		 "SAMRH707"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 20000000
+#define CPU_CLOCK_FREQUENCY 50000000
 
 // *****************************************************************************
 // *****************************************************************************

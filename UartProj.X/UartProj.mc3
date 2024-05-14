@@ -584,7 +584,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;CLK_MAINCK_MOSCRCEN&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -606,7 +606,19 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;CLK_MAINCK_MOSCSEL&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;0&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CLK_MCK_CSS"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CLK_MCK_CSS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;2&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;2&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -719,7 +731,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;CLK_SLCK_TDXTALSEL&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;0&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -730,7 +742,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;CLK_TD_SLCK_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;32000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;32768&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3719,7 +3731,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>f19cd0f2fc4b6ad3dd41f6c3d88aed0e011a60cf145a9f5d986a7c2c252fc464</hash>
+         <hash>9d885b8723dfa0c6e1fbde75d1c893e3728677c4b831045954cbdf92af27f1bd</hash>
       </entry>
       <entry>
          <file>..\src\config\default\device.h</file>
@@ -3755,7 +3767,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clk\plib_clk.c</file>
-         <hash>9111ab6bc4582426f15f54f6c10508cf2dd2523d1d73ef0887e6320ea5d589ba</hash>
+         <hash>0e81dff26910db8094a0067b0a1f62bfaca247e4205881f5cd94d6856c14d920</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clk\plib_clk.h</file>
@@ -3763,11 +3775,11 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\flexcom\usart\plib_flexcom1_usart.c</file>
-         <hash>caec5050b71b25819b1d706b35ad55b14ed0adafe493a71c0078b785b5d3505d</hash>
+         <hash>d37a48d6d364d006a0c4963772fdb14d58c37840b0d20d731776262fc1ce63ba</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\flexcom\usart\plib_flexcom1_usart.h</file>
-         <hash>99ac2048ff63af7a785aadba297c53722eacb6da226cdcfc63df48d660975eaa</hash>
+         <hash>552b029eb0fbd468c1554904aaf36ee58db457b77c843b66041e0e4e91fde11f</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\flexcom\usart\plib_flexcom_usart_local.h</file>
@@ -3799,11 +3811,11 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\systick\plib_systick.c</file>
-         <hash>13024dc59123cd17a5bc7702e06f2041a52e2ebd3e417aa85c8a78b4af2e0a46</hash>
+         <hash>cc92ab149ce3d9df3d8e546fd9141dfffa91eb078daa26aca08ff46560d20a83</hash>
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\systick\plib_systick.h</file>
-         <hash>89194e243b8f47067f3436100aa456064d4067985a6aecd0d4118500b7b90ae7</hash>
+         <hash>e03d2495db600c7d40cd7aabb2b09f4f2fb8a6a767f5cf82f9231d043f32e8af</hash>
       </entry>
       <entry>
          <file>..\src\config\default\pin_configurations.csv</file>
